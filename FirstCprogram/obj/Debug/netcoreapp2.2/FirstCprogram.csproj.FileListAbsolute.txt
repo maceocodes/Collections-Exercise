@@ -1,0 +1,11 @@
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\bin\Debug\netcoreapp2.2\FirstCprogram.deps.json
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\bin\Debug\netcoreapp2.2\FirstCprogram.runtimeconfig.json
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\bin\Debug\netcoreapp2.2\FirstCprogram.runtimeconfig.dev.json
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\bin\Debug\netcoreapp2.2\FirstCprogram.dll
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\bin\Debug\netcoreapp2.2\FirstCprogram.pdb
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\obj\Debug\netcoreapp2.2\FirstCprogram.csprojAssemblyReference.cache
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\obj\Debug\netcoreapp2.2\FirstCprogram.csproj.CoreCompileInputs.cache
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\obj\Debug\netcoreapp2.2\FirstCprogram.AssemblyInfoInputs.cache
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\obj\Debug\netcoreapp2.2\FirstCprogram.AssemblyInfo.cs
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\obj\Debug\netcoreapp2.2\FirstCprogram.dll
+C:\Users\246600\desktop\CodeLou\C#\FirstCprogram\obj\Debug\netcoreapp2.2\FirstCprogram.pdb

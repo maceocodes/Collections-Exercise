@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\246600\\desktop\\CodeLou\\C#\\FirstCprogram\\FirstCprogram.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
