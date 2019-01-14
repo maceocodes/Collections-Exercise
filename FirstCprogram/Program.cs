@@ -21,13 +21,30 @@ namespace FirstCprogram
                 {
                     keepGoing = false;
                 }
-                //Parse user input for integer and add to the running total
-                int minutes = int.Parse(entry);
-                runningTotal = runningTotal + minutes;
+                else
+                {
+                    //Parse user input for integer and add to the running total
+                    int minutes = int.Parse(entry);
 
-                //Display total mins exercies to the screen
-                Console.WriteLine("You've exercised " + runningTotal + " minutes");
-                //repeat until the user quits
+                        if(minutes <= 10)
+                        {
+                            Console.WriteLine("Better than nothing, am right?");
+                        }
+                        else if(minutes <= 30)
+                        {
+                            Console.WriteLine("Way to go hot stuff");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Okay, now you're just showing");
+                        }
+                    runningTotal = runningTotal + minutes;
+
+                    //Display total mins exercies to the screen
+                    Console.WriteLine("You've exercised " + runningTotal + " minutes");
+                    //repeat until the user quits
+                }
+                
             }
 
             Console.WriteLine("Goodbye");

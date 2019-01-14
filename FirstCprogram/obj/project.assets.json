@@ -692,22 +692,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\246600\\desktop\\CodeLou\\C#\\FirstCprogram\\FirstCprogram.csproj",
+      "projectUniqueName": "C:\\Users\\246600\\Desktop\\CodeLou\\C#\\FirstCprogram\\FirstCprogram.csproj",
       "projectName": "FirstCprogram",
-      "projectPath": "C:\\Users\\246600\\desktop\\CodeLou\\C#\\FirstCprogram\\FirstCprogram.csproj",
+      "projectPath": "C:\\Users\\246600\\Desktop\\CodeLou\\C#\\FirstCprogram\\FirstCprogram.csproj",
       "packagesPath": "C:\\Users\\246600\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\246600\\desktop\\CodeLou\\C#\\FirstCprogram\\obj\\",
+      "outputPath": "C:\\Users\\246600\\Desktop\\CodeLou\\C#\\FirstCprogram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\246600\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\246600\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
