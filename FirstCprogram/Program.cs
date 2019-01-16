@@ -6,7 +6,7 @@ namespace FirstCprogram
     {
         static void Main()
         {
-            int runningTotal = 0;
+            double runningTotal = 0;
             bool keepGoing = true;
 
             while (keepGoing)
@@ -17,16 +17,23 @@ namespace FirstCprogram
                 //Collect user input and save to variable
                 string entry = Console.ReadLine();
                 
-                if (entry == "quit") 
+                if (entry.ToLower() == "quit") 
                 {
                     keepGoing = false;
                 }
                 else
                 {
-                    //Parse user input for integer and add to the running total
-                    int minutes = int.Parse(entry);
+                    try
+                    {
+                         //Parse user input for integer and add to the running total
+                        double minutes = double.Parse(entry);
 
-                        if(minutes <= 10)
+                        if(minutes <=0)
+                        {
+                            Console.WriteLine(minutes + " is not an acceptable value");
+                            continue;
+                        }
+                        else if(minutes <= 10)
                         {
                             Console.WriteLine("Better than nothing, am right?");
                         }
@@ -38,7 +45,15 @@ namespace FirstCprogram
                         {
                             Console.WriteLine("Okay, now you're just showing");
                         }
+
                     runningTotal = runningTotal + minutes;
+                    }
+                        catch(FormatException)
+                    {
+                        Console.WriteLine("Invalid input: non-numeric entry");
+                        continue;
+                    }
+                    
 
                     //Display total mins exercies to the screen
                     Console.WriteLine("You've exercised " + runningTotal + " minutes");
